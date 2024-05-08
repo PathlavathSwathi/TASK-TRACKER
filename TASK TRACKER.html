@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="TASK TRACKER.css">
+</head>
+<body>
+    <img src="th2.jpg" alt="Background Image" id="image-bg">
+
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter task...">
+        </div>
+        <div class="input-container">
+            <select id="categoryInput">
+                <option value="" disabled selected>Select Category...</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Errands">Errands</option>
+                <option value="Shopping">Shopping</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="TASK TRACKER.js"></script>
+</body>
+</html>
+
+
